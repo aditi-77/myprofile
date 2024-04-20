@@ -1,0 +1,91 @@
+body{
+    text-align: center;
+}
+
+.lightmode {
+        text-align: center;
+        background-color: white;
+    
+    
+    #photo{
+            margin: auto;
+            height: 200px;
+            width: 200px;
+            border: 5px solid white;
+            border-radius: 100px; 
+            background-color: beige;
+        }
+        
+    #name{
+            padding: 10px 10px 10px 10px;
+        }
+    #info{
+            display: flex;
+        }
+        
+    #geninfo{
+            height: 500px;
+            width: 50vw;
+            background-color: antiquewhite;
+            border: 10px solid white;
+            padding: 10px 10px 10px 10px;
+        }
+        
+    #edinfo{
+            height: 500px;
+            width: 50vw;
+            background-color: antiquewhite;
+            border: 10px solid white;
+            padding: 10px 10px 10px 10px;
+        }
+}
+
+
+
+.darkmode {
+  
+        background-color: black;
+        color: white;
+
+    h1{
+        color: white;
+    }
+
+    #photo{
+        margin: auto;
+        height: 200px;
+        width: 200px;
+        border: 5px solid black;
+        border-radius: 100px; 
+        background-color: rgb(59, 58, 56);
+        color: white;
+    }
+    
+    #name{
+        padding: 10px 10px 10px 10px;
+        color: white;
+    }
+    
+    #info{
+        display: flex;
+        color: white;
+    }
+    
+    #geninfo{
+        height: 500px;
+        width: 50vw;
+        background-color: rgb(59, 58, 56);
+        border: 10px solid black;
+        padding: 10px 10px 10px 10px;
+        color: white;
+    } 
+
+    #edinfo{
+        height: 500px;
+        width: 50vw;
+        background-color: rgb(59, 58, 56);
+        border: 10px solid black;
+        padding: 10px 10px 10px 10px;
+        color: white;
+    }   
+}
